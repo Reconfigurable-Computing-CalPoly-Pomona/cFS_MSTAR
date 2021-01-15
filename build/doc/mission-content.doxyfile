@@ -1,0 +1,12 @@
+INPUT += /home/mint/cFS/apps/ci_lab
+INPUT += /home/mint/cFS/apps/to_lab
+INPUT += /home/mint/cFS/apps/sch_lab
+INPUT += /home/mint/cFS/apps/sample_app
+INPUT += /home/mint/cFS/apps/sample_lib
+INPUT += /home/mint/cFS/psp
+INPUT += /home/mint/cFS/cfe/modules/msg
+INPUT += /home/mint/cFS/cfe/modules/sbr
+PREDEFINED += 
+INPUT += /home/mint/cFS/osal/src/os/
+INPUT += /home/mint/cFS/psp/fsw/pc-linux
+INPUT += /home/mint/cFS/build/native/default_cpu1/inc
