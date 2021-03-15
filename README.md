@@ -24,7 +24,9 @@
 
 **Collaborators:**
 **- David McComas:**   Emeritus, Goddard Space Flight Cetner
+
 **- Jonathan Wilmot:** Senior Engineer, Flight Systems cFS Software CCSDS
+
 **- Jeffrey Levison :** Supervisor, Small Scale Flight Software Group at Jet Propulsion Laboratory, JPL/NASA
 
 **Project Sponsors:**
