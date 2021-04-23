@@ -50,7 +50,21 @@ http://pynq:9090
 
 with username and password both:
 
-****xilinx****
+xilinx
+
+Then, you can get access to the Jupyter Notebook on the PYNQ and create new terminal by clicking "New" button on the top right.
+
+#### Using Ethernet cable (Not Recommended)
+You can connect to your PYNQ board with a Ethernet Cable, but then the board will not have access to the Internet.
+Once the board is booted up, open a web browser and nevigate to 
+
+http://192.168.2.99:9090
+
+with username and password both:
+
+xilinx
+
+Then, you can get access to the Jupyter Notebook on the PYNQ and create new terminal by clicking "New" button on the top right.
 
 
 **Principal Investigator:**
