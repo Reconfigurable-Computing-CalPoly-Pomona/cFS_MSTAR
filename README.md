@@ -43,13 +43,16 @@ Then you should be able to send commands using PuTTY
 You can connect the PYNQ board onto the Router with Ethernet cables to have Internet access with your board. And you can establish connection with your board through Wifi. 
 
 *You need to make sure that you are connecting to the same Wifi with your board connected to.
+
 Once the board is booted up, open a web browser and nevigate to 
 
 http://pynq:9090 
 
 with username and password both:
 
-xilinx
+****xilinx****
+
+
 **Principal Investigator:**
 
 **- Dr. Mohamed El-Hadedy:** Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
