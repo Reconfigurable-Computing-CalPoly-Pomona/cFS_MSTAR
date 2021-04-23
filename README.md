@@ -11,6 +11,18 @@ The Core Flight System (cFS) is a generic flight software architecture framework
 
 [NASA/cFS](https://github.com/nasa/cFS)
 
+## Requirement
+- [PYNQ-Z1 or PYNQ-Z2 board](http://www.pynq.io/board.html)
+- MicoSD card larger than 8GB
+- USB to Micro-USB cable
+- Ethernet cable
+
+You can also use PuTTY if you want to build access to the board.
+- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+## Setup
+You can follow the following instructions to setup your PYNQ-Z1/Z2 with cFS preinstalled.
+
 
 **Principal Investigator:**
 
