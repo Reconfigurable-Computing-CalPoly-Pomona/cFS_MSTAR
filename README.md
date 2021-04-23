@@ -76,7 +76,9 @@ Then you can build with cmake
 > make SIMULATION=native prep
 > make
 > make install
+
 After building, you can run the core-cpu1 by the following commands
+
 > cd build/exe/cpu1/
 > ./core-cpu1
 
