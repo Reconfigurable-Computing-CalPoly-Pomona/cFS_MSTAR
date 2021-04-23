@@ -24,6 +24,26 @@ You can also use PuTTY if you want to build access to the board.
 You can follow the following instructions to setup your PYNQ-Z1/Z2 with cFS preinstalled.
 
 
+
+### Connectint to the board
+You have several ways to establish the connection with your PYNQ-Z1/Z2 board.
+
+#### Using PuTTY:
+If you connect a USB to Micro-USB cable to your computer you will be able to use a COM port to connect to your PYNQ board. First power on your board and wait for it to boot up. You will know that the board has booted when the blue LED light flashed and LED light labeled DONE lights up. To find the correct COM port on Windows go to your Device Manager and look for the PYNQ board under the ports drop down option.
+
+Once you find the correct COM port open PuTTY and select Serial from the menu on the left side. There you can change the settings to match the PYNQ board. The settings should be entered as follows
+- Speed (baud): 115200
+- Data bits: 8
+- Stop bits: 1
+- Parity: None
+- Flow control: None
+Then you should be able to send commands using PuTTY
+
+#### Using Wifi
+You can connect the PYNQ board onto the Router with Ethernet cables to have Internet access with your board. And you can establish connection with your board through Wifi. 
+*You need to make sure that you are connecting to the same Wifi with your board connected to.
+
+
 **Principal Investigator:**
 
 **- Dr. Mohamed El-Hadedy:** Assistant Professor, Electrical and Computer Engineering department, College of Engineering, California State Polytechnic University, Pomona.
