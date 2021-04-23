@@ -88,7 +88,8 @@ After building, you can run the core-cpu1 by the following commands
 
 
 If you need other applications from the cFS application list, you can use "git" to pull from cFS application website.
-But make sure to modify the script file and target.cmake file under the sample_del folder.
+But make sure to modify the script file and target.cmake file under the sample_def folder.
+
 
 
 
