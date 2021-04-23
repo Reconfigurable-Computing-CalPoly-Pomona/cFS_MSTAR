@@ -3,6 +3,11 @@
 
 # CFS Distribution used to benchmark the flight software overhead on a PYNQ Z2 SoC
 
+## PYNQ Introduction
+PYNQ or Python Productivity for Zynq, is a project created by Xilinx and is a member of the Zynq class of devices. The Zynq architecture combines a dual-core ARM Cortex-A9 with a Field Programmable Gate Array (FPGA). PYNQ enables users to use the Python language and libraries to build electronic systems. Two boards which implement PYNQ are the PYNQ-Z1 and the PYNQ-Z2.
+
+##cFS Introduction
+
 
 
 **Principal Investigator:**
