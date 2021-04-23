@@ -66,6 +66,27 @@ xilinx
 
 Then, you can get access to the Jupyter Notebook on the PYNQ and create new terminal by clicking "New" button on the top right.
 
+### Build cFS
+Now you have the board set up and the necessary files needed to run cFS. 
+First, nevigate to the cFS folder
+> cd cFS
+
+Then you can build with cmake
+
+> make SIMULATION=native prep
+> make
+> make install
+After building, you can run the core-cpu1 by the following commands
+> cd build/exe/cpu1/
+> ./core-cpu1
+
+
+
+If you need other applications from the cFS application list, you can use "git" to pull from cFS application website.
+But make sure to modify the script file and target.cmake file under the sample_del folder.
+
+
+
 
 **Principal Investigator:**
 
