@@ -13,13 +13,15 @@ The Core Flight System (cFS) is a generic flight software architecture framework
 
 ## Requirement
 - [PYNQ-Z1 or PYNQ-Z2 board](http://www.pynq.io/board.html)
-- MicoSD card larger than 8GB
+- MicoSD card larger than 8GB and a micro SD card reader
 - USB to Micro-USB cable
 - Ethernet cable
 - PYNQ Z1/Z2 image with cFS installed
+- Rufus
 You can get access to those image files with the following links:
 [PYNQ-Z1](https://drive.google.com/file/d/1yoU_Wow2pByiLZ8zkiGOuQvrZzIn2lcm/view?usp=sharing)
 [PYNQ-Z2](https://drive.google.com/file/d/1TFA6J8fHn6N-MsHMWj7cGD8iAalsMkgw/view?usp=sharing)
+
 
 You can also use PuTTY if you want to build access to the board.
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
@@ -27,7 +29,12 @@ You can also use PuTTY if you want to build access to the board.
 ## Setup
 You can follow the following instructions to setup your PYNQ-Z1/Z2 with cFS preinstalled.
 
+### Creating a bootable SD card with the image file
+Format your SD card (Note that it has to be larger than 8 GB for Z1, and 16 GB for Z2)
 
+Install the image file above and stored them onto your computer. Then use RUFUS with default setting to format the sd card with the bootable image file you downloaded. Remember to select the correct boot selection(the image file).
+
+Once Rufus finishes the process, you can power up your PYNQ board.
 
 ### Connectint to the board
 You have several ways to establish the connection with your PYNQ-Z1/Z2 board.
